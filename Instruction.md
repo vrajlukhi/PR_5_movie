@@ -142,7 +142,7 @@ Create an API for managing movies. This should include:
 - Make it a private route; only admin can delete.
 
 ## Implement a patch route named `/movie/rating/:id`
-
+  
 - If the movie is not found, send an error `{error: "movie not found}"`.
 - Add the rating to the movie database rating number (0 to 10).
 - send that movie in object
